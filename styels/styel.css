@@ -1,0 +1,19 @@
+/* sheard styles */
+.display_flex {
+    display: flex;
+}
+
+.nav_item {
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar{
+    justify-content: space-between;
+    
+}
+.navbar_title{
+    margin-left: 10%;
+}
+.nav_links{
+    margin-right: 10%;
+}
