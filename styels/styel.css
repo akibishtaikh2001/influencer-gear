@@ -49,6 +49,7 @@
     font-size: 3.2rem;
     font-weight: bold;
 }
+
 .banner_description {
     font-size: 1rem;
     font-weight: 600;
@@ -72,14 +73,59 @@ header {
 }
 
 /* main section strat */
-.box{
+.box {
     margin-top: 4%;
-    display: grid
-;
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
     width: 80vw;
     margin-left: 10%;
+}
 
+/* popular collection */
 
+.collection_title {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.item {
+    border: none;
+    border-radius: 5px;
+    width: 17vw;
+    background-color: antiquewhite;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_img {
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.item_heading {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+    padding-left: 13px;
+    margin: 6px;
+}
+
+.item_price{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87);
+    padding-left: 13px;
+    margin: 6px;
+}
+
+.item_description{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(120, 120, 133, 1);
+    padding-left: 13px;
+    margin-bottom: 17px;
 }
