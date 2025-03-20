@@ -70,3 +70,16 @@ header {
     background-repeat: no-repeat;
     background-position: 91% 96%;
 }
+
+/* main section strat */
+.box{
+    margin-top: 4%;
+    display: grid
+;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    width: 80vw;
+    margin-left: 10%;
+
+
+}
