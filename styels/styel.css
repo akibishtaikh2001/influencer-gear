@@ -3,17 +3,70 @@
     display: flex;
 }
 
+.text_grey {
+    color: rgba(58, 58, 58, 1);
+}
+
 .nav_item {
     list-style: none;
     margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
-    
+    margin-top: 3%;
+
 }
-.navbar_title{
+
+.navbar_title {
     margin-left: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-.nav_links{
+
+.nav_links {
     margin-right: 10%;
+}
+
+.banner {
+    justify-content: space-between;
+
+}
+
+.banner_content {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.banner img {
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+.banner_title {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.banner_description {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn_primary {
+    background-color: rgba(224, 44, 109, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: none;
+
+}
+
+header {
+    background-image: url("/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: 91% 96%;
 }
