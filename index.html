@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer-Gear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styels/styel.css">
 </head>
 
@@ -14,9 +19,28 @@
             <h4 class="navbar_title">Influencer products</h4>
             <ul class="nav_links display_flex">
                 <!-- li.nav_item*4>a.nav_link -->
-                <li class="nav_item">Home<a href="" class="nav_link"></a></li>
-                <li class="nav_item">Products<a href="" class="nav_link"></a></li>
-                <li class="nav_item">Sign up<a href="" class="nav_link"></a></li>
+                <div class="display_flex">
+                    <li class="nav_item">Home<a href="" class="nav_link"></a></li>
+                    <li class="nav_item">Products<a href="" class="nav_link"></a></li>
+                    <li class="nav_item">Sign up<a href="" class="nav_link"></a></li>
+                </div>
+
+                <div class="nav_emoji display_flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"
+                            stroke-width="1" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <circle cx="10" cy="28" r="2" fill="#000" />
+                        <circle cx="24" cy="28" r="2" fill="#000" />
+                        <path fill="#000"
+                            d="M28 7H5.82L5 2.8A1 1 0 0 0 4 2H0v2h3.18L7 23.2a1 1 0 0 0 1 .8h18v-2H8.82L8 18h18a1 1 0 0 0 1-.78l2-9A1 1 0 0 0 28 7m-2.8 9H7.62l-1.4-7h20.53Z" />
+                    </svg>
+
+                </div>
+
 
             </ul>
 
@@ -31,7 +55,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem <br>vestibulum sed scelerisque eros.
                     Lectus faucibus.
                 </p>
-                <button class="btn_primary">
+                <button class="btn_primary display_flex">
                     Preebook now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path fill="#fff" d="M4 12h12.25L11 6.75l.66-.75l6.5 6.5l-6.5 6.5l-.66-.75L16.25 13H4z" />
                     </svg>
@@ -40,7 +64,7 @@
             <div>
                 <img src="images/Group 33137.png" alt="">
             </div>
-          
+
         </div>
 
     </header>
@@ -177,14 +201,19 @@
         </section>
 
         <section>
-            <div class="featured_Products">
-                <img src="images/gear.png" alt="">
-                <div class="featured_contend">
+            <div class="featured_Products display_flex">
+            
+                    <img src="images/gear.png" alt="">
+             
+
+                <div class="featured_contend display_flex">
                     <h1 class="featured_title">
-                        Featured products at one place 
+                        Featured products at one place
                     </h1>
-                    <p class="featured-description">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    <p class="featured_description">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor  <br>  do amet sint. Velit officia
+                        consequat duis enim velit mollit. <br>
+                         Exercitation veniam consequat sunt nostrud amet.
                     </p>
                     <button class="btn_primary display_flex">
                         Join Now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -198,6 +227,22 @@
     </main>
 
     <footer>
+        <div class="footer_influence display_flex">
+            <div class="footer_content">
+                <h4 class="foot_title">
+                    Influencer products
+                 </h4>
+                 <p class="foot_description">
+                    Copyright © 2020  influencer products
+                 </p>
+                 <p class="foot_description">
+                    All rights reserved
+                 </p>
+
+            </div>
+            
+
+        </div>
 
     </footer>
 </body>
