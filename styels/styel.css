@@ -1,5 +1,44 @@
-/* sheard styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400..900&display=swap');
+
+.tektur {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 html {
     line-height: 1.15;
@@ -222,7 +261,8 @@ template {
     /* margin-left: 10%; */
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    
 }
 
 /* .nav_links {
@@ -230,7 +270,7 @@ template {
 } */
 
 .banner {
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -245,18 +285,21 @@ template {
 
 .banner_content {
     margin-top: 6%;
+    
 }
 
 .banner_title {
     font-size: 3.2rem;
     font-weight: bold;
-
-
+    /* font-family: 'Poppins'; */
+    font-family: "poppins";
 }
 
 .banner_description {
     font-size: 1rem;
     font-weight: 600;
+    font-family: "poppins";
+
 }
 
 .btn_primary {
@@ -373,6 +416,10 @@ template {
 }
 .footer_content{
     padding: 40px 0px;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: baseline;
 }
 .foot_title {
     font-size: 1.5rem;
